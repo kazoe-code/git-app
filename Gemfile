@@ -60,3 +60,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# add 200427 rails db:migrate -> rails aborted!
+gem 'libv8', '~> 7.3', '>= 7.3.492.27.1'
+gem 'mini_racer'
